@@ -1,0 +1,35 @@
+ .navbar-inverse{
+	background: #750e00;
+	
+}
+ .navbar-inverse .navbar-brand{
+	color: white;
+	
+}
+.navbar-inverse .navbar-nav>li>a 
+{
+	color: white;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+		background: #b83221;
+	}
+
+	.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+			background: #b83221;
+	}
+
+	.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+			background: #b83221;
+
+	}
+
+	.navbar-inverse .navbar-toggle {
+		border-color: #b83221;
+	}
+
+.gal
+{
+	padding-top:5em; 
+}
