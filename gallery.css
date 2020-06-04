@@ -1,29 +1,111 @@
 
-#main 
-
+body
 {
-	font-size: 20px;
-    font-weight: 100;   
+	background: url(body.jpeg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: white;
+    background: rgba(171, 44, 103, .8)
 }
 
 #main .navbar-brand
 {
 	font-size: 1.3rem;
     font-weight: 100;   
-    color: white;
+   
 }
 
 .navbar
 {
-	background: #750e00;
+	background: rgba(171, 44, 103, .8);
+	color: whit
 }
+
+.navbar-dark .navbar-nav .nav-link
+{
+	
+	color: white;
+}
+
 #main .nav-link:hover {
     color: white;
+     background: rgba(171, 44, 103, .8)
 }
+
+
+#top
+{
+	
+	text-align: center;
+	overflow: auto;
+	display: block;
+	color: #a3035e;
+}
+
+#heading
+{
+	
+	font-weight: 100;
+	font-size: 3rem;
+	text-align: center;
+	font-family: 'Piedra', cursive;
+}
+
+.font
+{
+	font-family: 'Piedra', cursive;
+	font-size: 1.5rem;
+}
+
+#slide
+{
+	width: 100%;
+
+	height: auto;
+	overflow: auto;
+	
+	display: block;
+
+}
+
+#foot
+{
+	
+	text-align: center;
+	width: 100%;
+	background: rgba(171, 44, 103, .8);
+}
+
+
+
+.under
+{
+	border-bottom: 3px solid orange;
+}
+
+#era
+{
+	list-style-image: url("arrow.png");
+}
+
+
+@media (max-width: 800px) {
+    #heading{
+        font-weight: 100;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .font
+    {
+    	font-size: 1rem;
+    }
+
+    }
 
